@@ -5,15 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tea House</title>
     <link rel="stylesheet" href="./styles/style.css" />
+    <link
+      rel="shortcut icon"
+      href="./assets/images/favicon.png"
+      type="image/x-icon"
+    />
   </head>
   <body>
     <header
-      class="container px-5 pt-5 md:mx-auto md:flex md:pt-10 lg:mx-auto lg:flex lg:w-11/12 lg:max-w-6xl lg:items-center lg:justify-between lg:pt-16"
+      class="container mx-auto px-5 pt-5 sm:mx-auto sm:flex sm:w-11/12 sm:items-center sm:justify-between sm:pt-10 lg:mx-auto lg:flex lg:max-w-6xl lg:items-center lg:justify-between lg:pt-16"
     >
       <!--header text part-->
       <div class="space-y-4 lg:space-y-7">
         <p
-          class="font-base text-4xl/snug font-extrabold text-[#1C1C1C] md:justify-between md:text-4xl/snug md:font-black lg:text-6xl/snug lg:font-black"
+          class="font-base text-4xl/snug font-extrabold text-[#1C1C1C] sm:justify-between sm:text-4xl/snug sm:font-black lg:text-6xl/snug lg:font-black"
         >
           It's good<br />tea time at<br />The Tea House
         </p>
@@ -63,7 +68,7 @@
     </header>
 
     <main
-      class="container mx-auto px-5 py-16 lg:mx-auto lg:w-11/12 lg:max-w-6xl lg:py-32"
+      class="container mx-auto px-5 py-16 sm:mx-auto lg:w-11/12 lg:max-w-6xl lg:py-32"
     >
       <!--featured section-->
       <section class="mx-auto space-y-8 text-center lg:space-y-12">
@@ -85,7 +90,7 @@
         </div>
         <!-- card container -->
         <div
-          class="mx-auto flex flex-col items-center space-y-6 md:grid md:grid-cols-2 md:justify-items-center md:gap-y-6 md:space-y-0 lg:grid-cols-4 lg:space-x-6"
+          class="mx-auto flex flex-col items-center space-y-6 sm:grid sm:grid-cols-2 sm:justify-items-center sm:gap-y-6 sm:space-y-0 lg:grid-cols-4 lg:space-x-6"
         >
           <!-- card 1  -->
           <div
@@ -95,7 +100,7 @@
               <img src="./assets/images/tea-2.png" class="w-full" alt="" />
             </div>
             <h2
-              class="pb-1 pt-3 font-base text-xl font-bold md:pb-2 md:pt-5 lg:pb-4 lg:pt-7 lg:text-2xl lg:font-extrabold"
+              class="pb-1 pt-3 font-base text-xl font-bold sm:pb-2 sm:pt-5 lg:pb-4 lg:pt-7 lg:text-2xl lg:font-extrabold"
             >
               Milk Tea
             </h2>
@@ -107,11 +112,11 @@
           <div
             class="max-w-xs rounded-lg bg-gradient-to-b from-[#F4F4F4]/100 to-[#F4F4F4]/0 px-7 py-8"
           >
-            <div class="mx-auto w-9/12 md:w-8/12">
+            <div class="mx-auto w-9/12 sm:w-8/12">
               <img src="./assets/images/tea-3.png" class="w-full" alt="" />
             </div>
             <h2
-              class="pb-1 pt-3 font-base text-xl font-bold md:pb-2 md:pt-5 lg:pb-4 lg:pt-7 lg:text-2xl lg:font-extrabold"
+              class="pb-1 pt-3 font-base text-xl font-bold sm:pb-2 sm:pt-5 lg:pb-4 lg:pt-7 lg:text-2xl lg:font-extrabold"
             >
               Black Tea
             </h2>
@@ -127,7 +132,7 @@
               <img src="./assets/images/tea-1.png" class="w-full" alt="" />
             </div>
             <h2
-              class="pb-1 pt-3 font-base text-xl font-bold md:pb-2 md:pt-5 lg:pb-4 lg:pt-7 lg:text-2xl lg:font-extrabold"
+              class="pb-1 pt-3 font-base text-xl font-bold sm:pb-2 sm:pt-5 lg:pb-4 lg:pt-7 lg:text-2xl lg:font-extrabold"
             >
               Lemon Tea
             </h2>
@@ -143,13 +148,183 @@
               <img src="./assets/images/tea-4.png" class="w-full" alt="" />
             </div>
             <h2
-              class="pb-1 pt-3 font-base text-xl font-bold md:pb-2 md:pt-5 lg:pb-4 lg:pt-7 lg:text-2xl lg:font-extrabold"
+              class="pb-1 pt-3 font-base text-xl font-bold sm:pb-2 sm:pt-5 lg:pb-4 lg:pt-7 lg:text-2xl lg:font-extrabold"
             >
               Green Tea
             </h2>
             <p class="font-base text-sm font-normal lg:text-sm lg:font-medium">
               Creamer could be replaced by fresh milk
             </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- presenting section  -->
+      <section
+        class="mx-auto mt-12 space-y-7 sm:flex sm:flex-col sm:items-center sm:space-y-10 md:mt-16 lg:mt-32 lg:flex-row lg:justify-between lg:space-x-12 lg:space-y-0"
+      >
+        <!-- coffee gallery section  -->
+        <div
+          class="grid grid-cols-2 grid-rows-3 gap-2 sm:max-w-xl md:min-w-[450px] md:gap-7"
+        >
+          <div
+            class="rounded-lg bg-[#00000033] bg-gradient-to-r from-[#FF0000] to-[#FF8938] opacity-10 bg-blend-overlay"
+          ></div>
+          <div class="row-span-2 rounded-lg bg-[#E6A6231A] pb-7 pt-12">
+            <img
+              src="./assets/images/fresh-1.png"
+              class="mx-auto w-9/12"
+              alt=""
+            />
+          </div>
+          <div class="row-span-2 rounded-lg bg-[#5776391A] pb-7 pt-12">
+            <img
+              src="./assets/images/fresh-2.png"
+              class="mx-auto w-7/12"
+              alt=""
+            />
+          </div>
+          <div
+            class="rounded-lg bg-[#00000033] bg-gradient-to-r from-[#D9D9D9] to-[#FFFFFF]/0 opacity-10 bg-blend-overlay"
+          ></div>
+        </div>
+        <!-- text section  -->
+        <div class="max-w-xl space-y-4 sm:space-y-6 lg:space-y-8">
+          <h1
+            class="font-base text-2xl/snug font-bold text-[#1C1C1C] sm:text-3xl/snug lg:text-4xl/snug lg:font-extrabold"
+          >
+            Great Tea, Freshly<br />Presented
+          </h1>
+          <div class="space-y-3 sm:space-y-5 lg:space-y-7">
+            <p class="font-base text-sm font-medium text-[#777777]">
+              The meaning of gong cha is chanese is to provide the best tea to
+              emperor from all possessions . It represents the highest quality
+              and self expectation. Establishing in 2006, Gong cha had been
+              deeply appreciated by its custoers because of good words of mouth
+              and unique customized service orginated from Taiwan.
+            </p>
+            <div class="space-y-3 md:space-y-4 lg:space-y-5">
+              <div class="w-11/12 space-y-1 sm:space-y-2 lg:w-3/4 lg:space-y-3">
+                <h3
+                  class="font-base text-lg font-bold text-[#1C1C1C] lg:text-xl lg:font-extrabold"
+                >
+                  Unique Taste
+                </h3>
+                <p class="font-base text-sm font-medium text-[#777777]">
+                  A Unique and different style from other teapots gives a
+                  luxurious and minimalist impression
+                </p>
+              </div>
+              <div class="w-11/12 space-y-1 sm:space-y-2 lg:w-3/4 lg:space-y-3">
+                <h3
+                  class="font-base text-lg font-bold text-[#1C1C1C] lg:text-xl lg:font-extrabold"
+                >
+                  Unique Taste
+                </h3>
+                <p class="font-base text-sm font-medium text-[#777777]">
+                  A Unique and different style from other teapots gives a
+                  luxurious and minimalist impression
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- meet our clients section  -->
+      <section
+        class="mx-auto mt-12 space-y-40 rounded-lg bg-[#00000033] bg-gradient-to-l from-[#FF0000] to-[#FF8938] px-5 py-8 pb-36 bg-blend-overlay md:mt-16 md:flex md:items-center md:justify-evenly md:space-x-14 md:space-y-0 md:py-48 lg:mt-32"
+      >
+        <!-- text container part  -->
+        <div class="space-y-6 md:w-2/5 lg:space-y-8">
+          <p
+            class="font-base text-3xl font-extrabold text-[#F4F4F4] lg:text-4xl"
+          >
+            Meet Our Super<br />Clients
+          </p>
+          <p
+            class="font-base text-base text-[#F4F4F4] md:text-sm md:font-medium lg:text-base"
+          >
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority have suffered alteration in some form, by injected
+            humour, or randomised words which don't look even slightly
+            believable.
+          </p>
+          <a href="" class="inline-block font-base"
+            ><button
+              class="rounded-lg bg-white px-5 py-3 font-base text-xl font-bold text-[#FF0000]"
+            >
+              Show All
+            </button></a
+          >
+        </div>
+        <!-- comment section  -->
+        <div class="relative px-5 md:w-[400px] md:px-0 lg:w-[500px]">
+          <!-- total container  -->
+          <div
+            class="relative z-10 mx-auto max-w-[430px] space-y-5 rounded-lg bg-white px-6 py-5 md:mx-0 md:w-[330px] md:max-w-none md:px-10 md:py-6 lg:w-[430px] lg:p-10"
+          >
+            <p class="font-base text-sm md:text-base">
+              We are providing the best and suitable home insurance services for
+              the people who are interested to treatment
+            </p>
+            <div class="space-y-1">
+              <p class="font-base text-lg font-bold">Ilham Yuda</p>
+              <p class="font-base text-sm text-[#5D5A6F] md:text-base">
+                Businessman
+              </p>
+            </div>
+            <div
+              class="absolute -left-[25px] -top-[48px] w-14 rounded-full border-4 border-white md:-left-[20px] md:-top-[40px] md:w-[60px]"
+            >
+              <img src="./assets/images/client.png" class="w-full" alt="" />
+            </div>
+            <div class="absolute bottom-4 right-4 w-6">
+              <img src="./assets/images/circles.png" alt="" class="w-full" />
+            </div>
+          </div>
+
+          <!-- background container comments -->
+          <div
+            class="absolute -right-[54px] -top-32 max-w-[430px] scale-75 space-y-5 rounded-lg bg-white px-6 py-5 opacity-40 md:w-[330px] md:max-w-none md:px-10 md:py-6 lg:w-[430px] lg:p-10"
+          >
+            <p class="font-base">
+              We are providing the best and suitable home insurance services for
+              the people who are interested to treatment
+            </p>
+            <div class="space-y-1">
+              <p class="font-base text-lg font-bold">Ilham Yuda</p>
+              <p class="font-base text-[#5D5A6F]">Businessman</p>
+            </div>
+            <div
+              class="absolute -left-[25px] -top-[48px] w-14 rounded-full border-4 border-white md:-left-[20px] md:-top-[40px] md:w-[60px]"
+            >
+              <img src="./assets/images/client.png" class="w-full" alt="" />
+            </div>
+            <div class="absolute bottom-4 right-4 w-6">
+              <img src="./assets/images/circles.png" alt="" class="w-full" />
+            </div>
+          </div>
+          <!-- background comment number 2  -->
+          <div
+            class="absolute -bottom-32 -right-[54px] max-w-[430px] scale-75 space-y-5 rounded-lg bg-white px-6 py-5 opacity-40 md:w-[330px] md:max-w-none md:px-10 md:py-6 lg:w-[430px] lg:p-10"
+          >
+            <p class="font-base">
+              We are providing the best and suitable home insurance services for
+              the people who are interested to treatment
+            </p>
+            <div class="space-y-1">
+              <p class="font-base text-lg font-bold">Ilham Yuda</p>
+              <p class="font-base text-[#5D5A6F]">Businessman</p>
+            </div>
+            <div
+              class="absolute -left-[25px] -top-[48px] w-14 rounded-full border-4 border-white md:-left-[20px] md:-top-[40px] md:w-[60px]"
+            >
+              <img src="./assets/images/client.png" class="w-full" alt="" />
+            </div>
+            <div class="absolute bottom-4 right-4 w-6">
+              <img src="./assets/images/circles.png" alt="" class="w-full" />
+            </div>
           </div>
         </div>
       </section>
